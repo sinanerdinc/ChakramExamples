@@ -1,0 +1,19 @@
+{
+  "name": "chakramgithub",
+  "version": "1.0.0",
+  "description": "chakram api test scenarios",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*"
+  },
+  "keywords": [
+    "chakram",
+    "rest",
+    "api"
+  ],
+  "author": "sinan erdinç",
+  "license": "ISC",
+  "devDependencies": {
+    "chakram": "^1.5.0"
+  }
+}
