@@ -28,6 +28,7 @@ describe("Chakram", function() {
         var response = chakram.get("http://httpbin.org/get");
         expect(response).to.have.status(200);
         expect(response).not.to.have.header('non-existing-header');
+        expect(response.body).to.be.lengthOf(1);
         return chakram.wait();
     });
 
