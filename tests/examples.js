@@ -29,6 +29,7 @@ describe("Chakram", function() {
         expect(response).to.have.status(200);
         expect(response).not.to.have.header('non-existing-header');
         expect(response.body).to.be.lengthOf(1);
+        console.log(JSON.stringify(body));
         return chakram.wait();
     });
 
